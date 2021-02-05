@@ -5,14 +5,14 @@ using Xamarin.Forms;
 
 namespace Phoneword
 {
-    public class MainPage : ContentPage
+    public class MainPageOld : ContentPage
     {
         private Entry phoneEntry;
         private Button translateButton;
         private Button callButton;
         private string phoneNumber;
 
-        public MainPage()
+        public MainPageOld()
         {
             Padding = 20;
 
